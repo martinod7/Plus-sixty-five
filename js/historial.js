@@ -1,0 +1,6 @@
+
+$(InsertHistorial);
+function InsertHistorial(){
+	//$("<form action='historial.php' method='get'><label class='letras'>Usuari</label><input type='text' class='letras' name='usuario'><br><label class='letras'>Cognom</label><input type='text' class='letras' name='apellido'><br><label class='letras'>Edat</label><input type='text' class='letras' name='edat'><br><input type='submit' class='letras' name='registrar' value='registrar'></form>").appendTo(".Historial");
+	$("<label class='letras'>Formulari de Control</label><br><form role='form' action='historial.php' method='get'><div class='form-group'><label class='letras'>Usuari</label><input type='text' class='form-control' name='usuario'></div><div class='form-group'><label class='letras'>Edat</label><input type='text' class='form-control' name='edat'></div><div class='form-group'><label class='letras'>Joc 1</label><input type='text' class='form-control' name='joc1'></div><div class='form-group'><label class='letras'>Joc 2</label><input type='text' class='form-control' name='joc2'></div><div class='form-group'><label class='letras'>Joc 3</label><input type='text' class='form-control' name='joc3'></div><input type='submit' class='letras' name='registrar' value='registrar'></form>").appendTo(".Historial");
+}

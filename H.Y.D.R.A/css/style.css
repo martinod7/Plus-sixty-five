@@ -1,0 +1,196 @@
+    body{
+    background-color: #444;
+    background-color: #1abc9c !important;
+    }
+    @font-face {
+    font-family: "CANDY";
+    src: url("../fonts/Candice/CANDY.woff");
+    }
+    @font-face {
+        
+    }
+    .form-signin input[type="text"] {
+    margin-bottom: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    }
+    .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    }
+    .form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    .vertical-offset-100 {
+    padding-top: 100px;
+    }
+    .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    }
+    .panel {
+    margin-bottom: 20px;
+    /*background-color: rgba(255, 255, 255, 0.75);*/
+    /*border: 1px solid transparent;*/
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    }
+    .central {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    }
+    .Titulo{
+    font-family: "CANDY";
+    font-size: 80pt !important;
+    -webkit-text-fill-color: #F781D8;
+    -webkit-text-stroke: 4px gold;
+    }
+    
+    @media (min-width: 768px) {
+  .container {
+    width: 750px;
+    height: 800px;
+
+  }
+  .PanelKids {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    width: 370px;
+    height: 790px;
+    float:right;
+    }
+     .PanelGranpas {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    width:370px;
+    height: 790px;
+    float:left;
+    }
+
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+    height: 800px;
+   
+  }
+  .PanelKids {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    width: 480px;
+    height: 790px;
+    float:right;
+    }
+     .PanelGranpas {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    width:480px;
+    height: 790px;
+    float:left;
+    }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+    height: 600px;
+  }
+  .PanelKids {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    width: 580px;
+    height: 580px;
+    float:right;
+    }
+     .PanelGranpas {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    width:580px;
+    height: 580px;
+    float:left;
+
+    }
+}
+@media (min-width: 1900px) {
+  .container {
+    width: 1900px;
+    height: 940px;
+  }
+  .PanelKids {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    width: 940px;
+    height: 925px;
+    float:right;
+    opacity: 0.7;
+    filter: alpha(opacity=40); 
+    }
+    .PanelKids img {
+        position: absolute; 
+        left: 52%; 
+        top: 25%;
+    }
+     .PanelGranpas {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    width:940px;
+    height: 925px;
+    float:left;
+
+    }
+}
+    /* Estilo por defecto */
+ 
+    input:required:invalid {
+        border: 1px solid red;
+    }
+    input:required:valid {
+        border: 1px solid green;
+    }
+    
